@@ -1,0 +1,9 @@
+
+// inside ansible folder on local machine
+cd ansible
+ssh-keygen -t ed25519 -C "ansible"
+ls
+ls ~/.ssh
+ls ~/.ssh/ansible.pub
+cat ~/.ssh/ansible.pub
+
